@@ -1,6 +1,10 @@
 $(document).ready(function() {
 
+<<<<<<< HEAD
   var apiRoot = 'https://thawing-river-58998.herokuapp.com/v1/task/';
+=======
+  var apiRoot = 'http://thawing-river-58998.herokuapp.com/v1/task/';
+>>>>>>> d9260a921795c2e7e0a8aade4effcf0410e5252c
   var datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   var tasksContainer = $('[data-tasks-container]');
 
