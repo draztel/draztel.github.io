@@ -1,6 +1,11 @@
 $(document).ready(function() {
+<<<<<<< HEAD
   const apiRoot = 'http://localhost:8080/v1/';
   const trelloApiRoot = 'http://localhost:8080/v1/trello/';
+=======
+  const apiRoot = 'https://thawing-river-58998.herokuapp.com/v1/task/';
+  const trelloApiRoot = 'https://thawing-river-58998.herokuapp.com/v1/trello/';
+>>>>>>> e2b022e81781d6e1398ae328e716b821b05d5707
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
 
